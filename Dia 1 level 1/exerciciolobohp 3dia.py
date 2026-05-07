@@ -1,6 +1,7 @@
 nome = "lobo"
 adagalad = 25
 hplobo = 60
+
 ataqlobo = hplobo - adagalad * 2
 
 
