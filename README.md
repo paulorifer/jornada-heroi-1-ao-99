@@ -11,4 +11,7 @@ Estudante de ADS no Mackenzie - 2º Ano.
 ## Progresso
 - ✅ Dia 1 — Variáveis e condições
 - ✅ Dia 2 — Fixação e prática
-- 🔄 Dia 3 — Loops (em breve)
+- ✅ Dia 3 — Loops básico
+- ✅ Dia 4 — Loops e break
+- ✅ Dia 5 — Funções
+- 🔄 Dia 6 — Fixação de funções (em breve)
