@@ -6,13 +6,13 @@
 
 def status(nome, hp):
     if hp > 50:
-        print("esta saudavel")
+        print(f"{nome} esta saudavel")
     elif hp > 20 and hp <= 50:
-        print("esta ferido")
+        print(f"{nome} esta ferido")
     elif hp < 20:
-        print("está em perigo")
+        print(f"{nome} está em perigo")
 
 
-status("nome", 60)
+status("horio", 60)
 status("Guerreiro", 35)
 status("Mago", 10)
