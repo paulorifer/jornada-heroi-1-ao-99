@@ -13,3 +13,15 @@ for i, item in enumerate(inventario):
     print(f"Slot {i}: {item}")
 
 print(f"\nTotal de equipamentos: {len(inventario)}")
+
+
+###    #####
+
+itens = ["capa", "sobrepeliz", "sapato", "brinco"]
+
+def mostrar_inventario(itens):
+    for i, item in enumerate(itens):
+        print(f"Slot {i}: {item}")
+    print(f"\nTotal de itens: {len(itens)}")
+
+mostrar_inventario(itens)
