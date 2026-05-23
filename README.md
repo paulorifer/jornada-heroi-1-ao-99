@@ -1,17 +1,24 @@
 # Jornada Herói 1 ao 99 🗡️
 
-Repositório de estudos de programação do zero.
-Estudante de ADS no Mackenzie - 2º Ano.
+Repositório de estudos de Python do zero ao avançado.
+Estudante de ADS na Universidade Mackenzie - SP
 
 ## O que estou aprendendo
 - Lógica de programação
-- Python básico
-- Variáveis, condições e loops
+- Python do zero ao avançado
+- Estruturas de dados
+- Git e GitHub
 
 ## Progresso
-- ✅ Dia 1 — Variáveis e condições
-- ✅ Dia 2 — Fixação e prática
-- ✅ Dia 3 — Loops básico
-- ✅ Dia 4 — Loops e break
-- ✅ Dia 5 — Funções
-- 🔄 Dia 6 — Fixação de funções (em breve)
+- ✅ Dia 1-2 — Variáveis e tipos de dados
+- ✅ Dia 3-4 — Condicionais if/elif/else
+- ✅ Dia 5 — Loops for e while
+- ✅ Dia 6 — Funções
+- ✅ Dia 7 — Listas
+- ✅ Dia 8 — Dicionários
+- 🔄 Dia 9 — Em andamento
+
+## Tecnologias
+- Python 3.14
+- Git & GitHub
+- VS Code
