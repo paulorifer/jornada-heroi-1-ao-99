@@ -33,7 +33,7 @@ listas e dicionários — tudo junto num projeto real.
 python estoque.py
 ```
 
-## 👨 Autor
+##  Autor
 
 Paulo Ferreira — Estudante de ADS | Mackenzie SP
-[LinkedIn](https://www.linkedin.com/in/paulorifer/) | [GitHub](https://github.com/pauloriferi)
+[LinkedIn](https://www.linkedin.com/in/paulorifer/) | [GitHub](https://github.com/paulorifer)
