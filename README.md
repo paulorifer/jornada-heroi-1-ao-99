@@ -29,6 +29,8 @@ Estudante de ADS na Universidade Mackenzie - SP
 - [Sistema de Estoque Conibase](https://github.com/paulorifer/conibase-pedidos) — CRUD completo em Python
 - [Sistema de Pedidos Conibase](https://github.com/paulorifer/conibase-pedidos) — JSON + persistência de dados
 
+## Tecnologias
+
 - Python 3.14
 - Git e GitHub
 - VS Code
