@@ -25,7 +25,6 @@ listas e dicionários — tudo junto num projeto real.
 - Funções
 - Loops e condicionais
 - Manipulação de strings com `.lower()`
-- CRUD completo (Create, Read, Update, Delete)
 
 ##  Como executar
 
