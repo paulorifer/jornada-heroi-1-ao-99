@@ -26,8 +26,8 @@ Estudante de ADS na Universidade Mackenzie - SP
 
 ## Projetos reais construídos
 
-- [Sistema de Estoque Conibase](https://github.com/paulorifer/conibase-pedidos)
-- [Sistema de Pedidos Conibase](https://github.com/paulorifer/conibase-pedidos)
+- [Sistema de Estoque Conibase](https://github.com/paulorifer/conibase-pedidos) — CRUD completo em Python
+- [Sistema de Pedidos Conibase](https://github.com/paulorifer/conibase-pedidos) — JSON + persistência de dados
 
 ## Tecnologias
 
