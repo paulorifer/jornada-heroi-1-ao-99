@@ -1,4 +1,5 @@
 import json
+import os
 
 def cadastrar_produto():
     print("=== CADASTRO DE PRODUTO ===")
@@ -18,10 +19,18 @@ def cadastrar_produto():
         "localizacao": localizacao,
         "retirado": False
     }
+    if os.path.exists("estoque.json"):
+        with open("estoque.json", "r", encoding="utf-8") as arquivo:
+            estoque = json.load(arquivo)
+    else:
+        estoque = []
+
+    estoque.append(produto_cadastrado)
 
     with open("estoque.json", "w", encoding="utf-8") as arquivo:
-        json.dump(produto_cadastrado, arquivo, ensure_ascii=False)
+        json.dump(estoque, arquivo, ensure_ascii=False, indent=4)
 
-    print("\nProduto salvo com sucesso!")
+    print(f"\nProduto salvo! Total no estoque: {len(estoque)} produto(s).")
+
 
 cadastrar_produto()

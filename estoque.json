@@ -1,1 +1,29 @@
-{"codigo_rp": "07", "loja": "6", "produto": "Piso pscina 10x10", "cliente": "Laura", "cpf": "456123789", "localizacao": "Proximo a argamassa pallet vermelho", "retirado": false}
+[
+    {
+        "codigo_rp": "02",
+        "loja": "02",
+        "produto": "Piso delta 70x70",
+        "cliente": "Mariana",
+        "cpf": "789456123",
+        "localizacao": "Proximo as tabuas",
+        "retirado": false
+    },
+    {
+        "codigo_rp": "05",
+        "loja": "01",
+        "produto": "Argamassa Forteleza ac III",
+        "cliente": "Otavio",
+        "cpf": "123456789",
+        "localizacao": "Proxima a moto branca",
+        "retirado": false
+    },
+    {
+        "codigo_rp": "& C:/Users/paulo/AppData/Local/Programs/Python/Python314/python.exe c:/Users/paulo/jornada-heroi-1-ao-99/dia-15/projeto_conibase.py",
+        "loja": "git add.",
+        "produto": "& C:/Users/paulo/AppData/Local/Programs/Python/Python314/python.exe c:/Users/paulo/jornada-heroi-1-ao-99/dia-15/projeto_conibase.py",
+        "cliente": "bianca",
+        "cpf": "789456",
+        "localizacao": "proximo entraada retira",
+        "retirado": false
+    }
+]
