@@ -28,7 +28,7 @@ diretamente no contexto do meu trabalho.
 - ✅ Dia 11 — Projeto real: Sistema de Pedidos (JSON + persistência)
 - ✅ Dia 12-13 — Fixação: JSON, load e dump
 - ✅ Dia 14 — Estoque Conibase com JSON — salvar e carregar dados reais
- -✅ Dia 15 — Funções, indentação e primeiro cadastro Conibase em JSON
+- ✅ Dia 15 — Funções, indentação e primeiro cadastro Conibase em JSON
 - ✅ Dia 16 — Acumular produtos sem sobrescrever — os.path.exists e append
 - ✅ Dia 17 — Novos campos: numero_pedido, nota_fiscal e data_chegada automática
 
