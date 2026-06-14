@@ -13,7 +13,10 @@ Dados salvos em JSON.
 ## Status
 - [x] Cadastro de produto
 - [x] Salvar em JSON
-- [ ] Acumular produtos sem sobrescrever
+- [x] Acumular produtos sem sobrescrever
+- [x] Número do pedido
+- [x] Nota fiscal do fornecedor
+- [x] Data de chegada automática
 - [ ] Consulta por CPF ou nome
 - [ ] Marcar como retirado
 
