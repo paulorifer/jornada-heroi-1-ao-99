@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 
 def cadastrar_produto():
     print("=== CADASTRO DE PRODUTO ===")
@@ -9,6 +10,11 @@ def cadastrar_produto():
     cliente = input("Nome do Cliente: ")
     cpf = input("CPF do Cliente: ")
     localizacao = input("Localizacao fisica (Ex: Galpão A, Prateleira 4 Prox: Cimento): ")
+    numero_pedido = input("Numero do Pedido: ")
+    nota_fiscal = input("Nota fiscal do fornecedor: ")
+    data_chegada = datetime.now().strftime("%d/%m/%Y %H:%M")
+
+
 
     produto_cadastrado = {
         "codigo_rp": codigo_rp,
@@ -17,6 +23,9 @@ def cadastrar_produto():
         "cliente": cliente,
         "cpf": cpf,
         "localizacao": localizacao,
+        "numero_pedido": numero_pedido,
+        "nota_fiscal": nota_fiscal,
+        "data_chegada": data_chegada,
         "retirado": False
     }
     if os.path.exists("estoque.json"):

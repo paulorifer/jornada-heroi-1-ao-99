@@ -25,5 +25,17 @@
         "cpf": "789456",
         "localizacao": "proximo entraada retira",
         "retirado": false
+    },
+    {
+        "codigo_rp": "78",
+        "loja": "6",
+        "produto": "Revestimento Formigues 33x42",
+        "cliente": "Claudio",
+        "cpf": "7895632145",
+        "localizacao": "em cima da tabua",
+        "numero_pedido": "1456",
+        "nota_fiscal": "789665245",
+        "data_chegada": "14/06/2026 15:56",
+        "retirado": false
     }
 ]
