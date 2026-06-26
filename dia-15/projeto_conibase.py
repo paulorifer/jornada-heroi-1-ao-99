@@ -2,6 +2,19 @@ import json
 import os
 from datetime import datetime
 
+def buscar_produto():
+    print("= Busca de Produto = ")
+    cpf = input("Digite o CPF do Cliente: ")
+    if os.path.exists("estoque.json"):
+        with open("estoque.json", "r", encoding="utf-8") as arquivo:
+            estoque = json.load(arquivo)
+    else:
+        estoque = []
+    for produto in estoque:
+        if produto["cpf"] == cpf:
+            print("Produto encontrado!")
+            print(produto)    
+
 def cadastrar_produto():
     print("=== CADASTRO DE PRODUTO ===")
     codigo_rp = input("Codigo RP: ")
@@ -43,3 +56,4 @@ def cadastrar_produto():
 
 
 cadastrar_produto()
+buscar_produto()

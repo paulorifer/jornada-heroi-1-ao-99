@@ -37,5 +37,17 @@
         "nota_fiscal": "789665245",
         "data_chegada": "14/06/2026 15:56",
         "retirado": false
+    },
+    {
+        "codigo_rp": "56",
+        "loja": "01",
+        "produto": "Piso Delta 90x90",
+        "cliente": "Rodolfo",
+        "cpf": "789654123",
+        "localizacao": "em baixo da prateleira de madeira",
+        "numero_pedido": "89",
+        "nota_fiscal": "895624475",
+        "data_chegada": "26/06/2026 20:26",
+        "retirado": false
     }
 ]
