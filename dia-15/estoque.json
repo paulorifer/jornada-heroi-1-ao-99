@@ -1,0 +1,65 @@
+[
+    {
+        "codigo_rp": "02",
+        "loja": "02",
+        "produto": "Piso delta 70x70",
+        "cliente": "Mariana",
+        "cpf": "789456123",
+        "localizacao": "Proximo as tabuas",
+        "retirado": false
+    },
+    {
+        "codigo_rp": "05",
+        "loja": "01",
+        "produto": "Argamassa Forteleza ac III",
+        "cliente": "Otavio",
+        "cpf": "123456789",
+        "localizacao": "Proxima a moto branca",
+        "retirado": false
+    },
+    {
+        "codigo_rp": "& C:/Users/paulo/AppData/Local/Programs/Python/Python314/python.exe c:/Users/paulo/jornada-heroi-1-ao-99/dia-15/projeto_conibase.py",
+        "loja": "git add.",
+        "produto": "& C:/Users/paulo/AppData/Local/Programs/Python/Python314/python.exe c:/Users/paulo/jornada-heroi-1-ao-99/dia-15/projeto_conibase.py",
+        "cliente": "bianca",
+        "cpf": "789456",
+        "localizacao": "proximo entraada retira",
+        "retirado": false
+    },
+    {
+        "codigo_rp": "78",
+        "loja": "6",
+        "produto": "Revestimento Formigues 33x42",
+        "cliente": "Claudio",
+        "cpf": "7895632145",
+        "localizacao": "em cima da tabua",
+        "numero_pedido": "1456",
+        "nota_fiscal": "789665245",
+        "data_chegada": "14/06/2026 15:56",
+        "retirado": false
+    },
+    {
+        "codigo_rp": "56",
+        "loja": "01",
+        "produto": "Piso Delta 90x90",
+        "cliente": "Rodolfo",
+        "cpf": "789654123",
+        "localizacao": "em baixo da prateleira de madeira",
+        "numero_pedido": "89",
+        "nota_fiscal": "895624475",
+        "data_chegada": "26/06/2026 20:26",
+        "retirado": false
+    },
+    {
+        "codigo_rp": "06",
+        "loja": "01",
+        "produto": "piso incefra 74x74",
+        "cliente": "Rodolfo",
+        "cpf": "789456123",
+        "localizacao": "perto do pallet de recebimento da loja",
+        "numero_pedido": "123",
+        "nota_fiscal": "589",
+        "data_chegada": "28/06/2026 17:33",
+        "retirado": false
+    }
+]

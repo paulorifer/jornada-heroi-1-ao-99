@@ -13,14 +13,14 @@ def buscar_produto():
     for produto in estoque:
         if produto["cpf"] == cpf:
             print("Produto encontrado!")
-            print(f"Cliente: {produto["cliente"]}")
+            print(f"Cliente: {produto['cliente']}")
             print(f"CPF: {produto['cpf']}")
             print(f"Produto: {produto['produto']}")
             print(f"Localização: {produto['localizacao']}")
             print(f"Pedido nº: {produto['numero_pedido']}")
             print(f"Nota fiscal: {produto['nota_fiscal']}")
             print(f"Data de chegada: {produto['data_chegada']}")
-            print(f"Retirado: {produto['retirado']}")   
+            print(f"Retirado: {produto['retirado']}")
 
 def cadastrar_produto():
     print("=== CADASTRO DE PRODUTO ===")
@@ -33,9 +33,6 @@ def cadastrar_produto():
     numero_pedido = input("Numero do Pedido: ")
     nota_fiscal = input("Nota fiscal do fornecedor: ")
     data_chegada = datetime.now().strftime("%d/%m/%Y %H:%M")
-
-
-
     produto_cadastrado = {
         "codigo_rp": codigo_rp,
         "loja": loja,
@@ -53,14 +50,23 @@ def cadastrar_produto():
             estoque = json.load(arquivo)
     else:
         estoque = []
-
     estoque.append(produto_cadastrado)
-
     with open("estoque.json", "w", encoding="utf-8") as arquivo:
         json.dump(estoque, arquivo, ensure_ascii=False, indent=4)
-
     print(f"\nProduto salvo! Total no estoque: {len(estoque)} produto(s).")
 
-
-cadastrar_produto()
-buscar_produto()
+while True:
+    print("== CONIBASE ==")
+    print("1 - Cadastrar Produto")
+    print("2 - Buscar Produto")
+    print("0 - Sair")
+    opcao = input("Escolha uma opção: ")
+    if opcao == "1":
+        cadastrar_produto()
+    elif opcao == "2":
+        buscar_produto()
+    elif opcao == "0":
+        print("Encerrando o sistema...")
+        break
+    else:
+        print("Opção inválida. Tente novamente.")
