@@ -49,5 +49,17 @@
         "nota_fiscal": "895624475",
         "data_chegada": "26/06/2026 20:26",
         "retirado": false
+    },
+    {
+        "codigo_rp": "06",
+        "loja": "01",
+        "produto": "piso incefra 74x74",
+        "cliente": "Rodolfo",
+        "cpf": "789456123",
+        "localizacao": "perto do pallet de recebimento da loja",
+        "numero_pedido": "123",
+        "nota_fiscal": "589",
+        "data_chegada": "28/06/2026 17:33",
+        "retirado": false
     }
 ]

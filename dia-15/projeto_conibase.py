@@ -13,7 +13,14 @@ def buscar_produto():
     for produto in estoque:
         if produto["cpf"] == cpf:
             print("Produto encontrado!")
-            print(produto)    
+            print(f"Cliente: {produto["cliente"]}")
+            print(f"CPF: {produto['cpf']}")
+            print(f"Produto: {produto['produto']}")
+            print(f"Localização: {produto['localizacao']}")
+            print(f"Pedido nº: {produto['numero_pedido']}")
+            print(f"Nota fiscal: {produto['nota_fiscal']}")
+            print(f"Data de chegada: {produto['data_chegada']}")
+            print(f"Retirado: {produto['retirado']}")   
 
 def cadastrar_produto():
     print("=== CADASTRO DE PRODUTO ===")
