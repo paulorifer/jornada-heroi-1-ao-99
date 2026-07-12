@@ -61,5 +61,17 @@
         "nota_fiscal": "589",
         "data_chegada": "28/06/2026 17:33",
         "retirado": false
+    },
+    {
+        "codigo_rp": "01",
+        "loja": "02",
+        "produto": "piso aquarela 32x45",
+        "cliente": "roberto",
+        "cpf": "333",
+        "localizacao": "do lado das duas caixas durag",
+        "numero_pedido": "9",
+        "nota_fiscal": "3",
+        "data_chegada": "12/07/2026 18:38",
+        "retirado": true
     }
 ]

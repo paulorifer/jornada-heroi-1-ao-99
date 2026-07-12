@@ -22,6 +22,21 @@ def buscar_produto():
             print(f"Data de chegada: {produto['data_chegada']}")
             print(f"Retirado: {produto['retirado']}")
 
+def marcar_retirado():
+    print("=== MARCAR COMO RETIRADO ===")
+    cpf = input("Digite o CPF do Cliente: ")
+    if os.path.exists("estoque.json"):
+        with open("estoque.json", "r", encoding="utf-8") as arquivo:
+            estoque = json.load(arquivo)
+    else:
+        estoque = []
+    for produto in estoque:
+        if produto["cpf"] == cpf:
+            produto["retirado"] = True
+            print(f"Produto '{produto['produto']}' marcado como retirado!")
+    with open("estoque.json", "w", encoding="utf-8") as arquivo:
+        json.dump(estoque, arquivo, ensure_ascii=True, indent=4)            
+
 def cadastrar_produto():
     print("=== CADASTRO DE PRODUTO ===")
     codigo_rp = input("Codigo RP: ")
@@ -59,12 +74,15 @@ while True:
     print("== CONIBASE ==")
     print("1 - Cadastrar Produto")
     print("2 - Buscar Produto")
+    print("3 - Marcar como Retirado")
     print("0 - Sair")
     opcao = input("Escolha uma opção: ")
     if opcao == "1":
         cadastrar_produto()
     elif opcao == "2":
         buscar_produto()
+    elif opcao == "3":
+        marcar_retirado()
     elif opcao == "0":
         print("Encerrando o sistema...")
         break
